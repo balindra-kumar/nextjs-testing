@@ -1,0 +1,15 @@
+{
+   "apps":[
+    {
+        "name": "nextjs-app",
+        "script": "npm",
+        "args": "run build",
+        "autorestart": true,
+        "watch": false,
+        "max_memory_restart": "1G",
+        "env": {
+        "NODE_ENV": "production"
+        }
+    }
+    ]
+}
